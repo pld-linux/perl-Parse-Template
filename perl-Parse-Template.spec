@@ -23,7 +23,7 @@ text.  This class can be used as a code generator, or a generator of
 documents in various document formats (HTML, XML, RTF, etc.).
 
 %description -l pl
-Klasa Parse::Template oblicza wyra¿enie Perla umieszczonych w tek¶cie.
+Klasa Parse::Template oblicza wyra¿enia Perla umieszczone w tek¶cie.
 Klasa ta mo¿e s³u¿yæ jako generator kodu lub jako generator dokumentów
 w ró¿nych formatach (HTML, XML, RTF itp.).
 
