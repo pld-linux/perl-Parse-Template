@@ -10,8 +10,8 @@ Summary(pl):	Parse::Template - procesor dla szablonów zawieraj±cych wyra¿enia Pe
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.34
 Release:	1
-# as perl itself
-License:	GPLv1 or Artistic
+# same as perl
+License:	GPL v1 or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tar.gz
 # Source0-md5:	f211413811b6a51c6637f60259ba7b10
