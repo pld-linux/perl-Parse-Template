@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Parse
 %define	pnam	Template
-Summary:	Parse::Template - Processor for templates containing Perl expressions.
-Summary(pl):	Parse::Template - procesor dla szablonów zawieraj±cych wyra¿enia perla.
+Summary:	Parse::Template - processor for templates containing Perl expressions
+Summary(pl):	Parse::Template - procesor dla szablonów zawieraj±cych wyra¿enia Perla
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.34
 Release:	1
@@ -18,12 +18,14 @@ Obsoletes:	perl-ParseTemplate
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The C<Parse::Template> class evaluates Perl expressions placed within
-a text.  This class can be used as a code generator, or a generator of
+The Parse::Template class evaluates Perl expressions placed within a
+text.  This class can be used as a code generator, or a generator of
 documents in various document formats (HTML, XML, RTF, etc.).
 
-# %description -l pl
-# TODO
+%description -l pl
+Klasa Parse::Template oblicza wyra¿enie Perla umieszczonych w tekscie.
+Klasa ta mo¿e s³u¿yæ jako generator kodu lub jako generator dokumentów
+w ró¿nych formatach (HTML, XML, RTF itp.).
 
 %prep
 %setup -q -n %{pdir}%{pnam}-%{version}
