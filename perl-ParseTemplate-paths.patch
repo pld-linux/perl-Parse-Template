@@ -1,0 +1,64 @@
+--- examples.paths/gen_html.pl	Wed Mar 24 13:53:05 1999
++++ examples/gen_html.pl	Sun Oct 17 21:00:21 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ require 5.004; 
+ use strict;
+--- examples.paths/html_template.pl	Wed Mar 24 13:53:06 1999
++++ examples/html_template.pl	Sun Oct 17 21:00:27 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ require 5.004; 
+ use strict;
+--- examples.paths/html_template2.pl	Wed Mar 24 13:53:06 1999
++++ examples/html_template2.pl	Sun Oct 17 21:00:31 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ require 5.004; 
+ use strict;
+--- examples.paths/includes.pl	Thu Mar 25 13:16:19 1999
++++ examples/includes.pl	Sun Oct 17 21:00:37 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ # Process a document including directives like this:
+ # 
+--- examples.paths/template.pl	Wed Mar 24 13:53:05 1999
++++ examples/template.pl	Sun Oct 17 21:00:41 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ require 5.004; 
+ use strict;
+--- examples.paths/template1.pl	Wed Mar 24 13:53:05 1999
++++ examples/template1.pl	Sun Oct 17 21:00:46 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ require 5.004; 
+ use strict;
+--- examples.paths/template2.pl	Wed Mar 24 13:53:05 1999
++++ examples/template2.pl	Sun Oct 17 21:00:50 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ require 5.004;
+ 
+--- examples.paths/template3.pl	Wed Mar 24 13:53:05 1999
++++ examples/template3.pl	Sun Oct 17 21:00:55 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ require 5.004;
+ 
