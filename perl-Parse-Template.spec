@@ -3,8 +3,8 @@
 %bcond_with	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Parse
-%define	pnam	Template
+%define		pdir	Parse
+%define		pnam	Template
 Summary:	Parse::Template - processor for templates containing Perl expressions
 Summary(pl):	Parse::Template - procesor dla szablonów zawieraj±cych wyra¿enia Perla
 Name:		perl-Parse-Template
