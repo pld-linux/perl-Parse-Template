@@ -1,6 +1,6 @@
 diff -Nru ParseTemplate-0.34/examples/derived.pl ParseTemplate-0.34.new/examples/derived.pl
 --- ParseTemplate-0.34/examples/derived.pl	Mon Sep 25 17:08:57 2000
-+++ ParseTemplate-0.34.new/examples/derived.pl	Mon Feb  5 22:51:50 2001
++++ ParseTemplate-0.34.new/examples/derived.pl	Thu Feb  8 07:27:59 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
@@ -9,7 +9,7 @@ diff -Nru ParseTemplate-0.34/examples/derived.pl ParseTemplate-0.34.new/examples
  use strict;
 diff -Nru ParseTemplate-0.34/examples/die.pl ParseTemplate-0.34.new/examples/die.pl
 --- ParseTemplate-0.34/examples/die.pl	Mon Sep 25 17:08:57 2000
-+++ ParseTemplate-0.34.new/examples/die.pl	Mon Feb  5 22:51:26 2001
++++ ParseTemplate-0.34.new/examples/die.pl	Thu Feb  8 07:27:36 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
@@ -18,7 +18,7 @@ diff -Nru ParseTemplate-0.34/examples/die.pl ParseTemplate-0.34.new/examples/die
  
 diff -Nru ParseTemplate-0.34/examples/error.pl ParseTemplate-0.34.new/examples/error.pl
 --- ParseTemplate-0.34/examples/error.pl	Mon Sep 25 17:08:57 2000
-+++ ParseTemplate-0.34.new/examples/error.pl	Mon Feb  5 22:51:47 2001
++++ ParseTemplate-0.34.new/examples/error.pl	Thu Feb  8 07:27:55 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
@@ -27,7 +27,7 @@ diff -Nru ParseTemplate-0.34/examples/error.pl ParseTemplate-0.34.new/examples/e
  
 diff -Nru ParseTemplate-0.34/examples/html_generator.pl ParseTemplate-0.34.new/examples/html_generator.pl
 --- ParseTemplate-0.34/examples/html_generator.pl	Mon Sep 25 17:08:57 2000
-+++ ParseTemplate-0.34.new/examples/html_generator.pl	Mon Feb  5 22:51:43 2001
++++ ParseTemplate-0.34.new/examples/html_generator.pl	Thu Feb  8 07:27:52 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
@@ -36,7 +36,7 @@ diff -Nru ParseTemplate-0.34/examples/html_generator.pl ParseTemplate-0.34.new/e
  use strict;
 diff -Nru ParseTemplate-0.34/examples/html_generator2.pl ParseTemplate-0.34.new/examples/html_generator2.pl
 --- ParseTemplate-0.34/examples/html_generator2.pl	Mon Sep 25 17:08:57 2000
-+++ ParseTemplate-0.34.new/examples/html_generator2.pl	Mon Feb  5 22:51:22 2001
++++ ParseTemplate-0.34.new/examples/html_generator2.pl	Thu Feb  8 07:27:31 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
@@ -44,8 +44,8 @@ diff -Nru ParseTemplate-0.34/examples/html_generator2.pl ParseTemplate-0.34.new/
  use strict;
  use Parse::Template;
 diff -Nru ParseTemplate-0.34/examples/html_template.pl ParseTemplate-0.34.new/examples/html_template.pl
---- ParseTemplate-0.34/examples/html_template.pl	Mon Feb  5 22:50:41 2001
-+++ ParseTemplate-0.34.new/examples/html_template.pl	Mon Feb  5 22:51:18 2001
+--- ParseTemplate-0.34/examples/html_template.pl	Mon Sep 25 17:08:57 2000
++++ ParseTemplate-0.34.new/examples/html_template.pl	Thu Feb  8 07:27:28 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
@@ -53,8 +53,8 @@ diff -Nru ParseTemplate-0.34/examples/html_template.pl ParseTemplate-0.34.new/ex
  require 5.004; 
  use strict;
 diff -Nru ParseTemplate-0.34/examples/includes.pl ParseTemplate-0.34.new/examples/includes.pl
---- ParseTemplate-0.34/examples/includes.pl	Mon Feb  5 22:50:41 2001
-+++ ParseTemplate-0.34.new/examples/includes.pl	Mon Feb  5 22:51:39 2001
+--- ParseTemplate-0.34/examples/includes.pl	Mon Sep 25 17:08:57 2000
++++ ParseTemplate-0.34.new/examples/includes.pl	Thu Feb  8 07:27:48 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
@@ -63,7 +63,7 @@ diff -Nru ParseTemplate-0.34/examples/includes.pl ParseTemplate-0.34.new/example
  # 
 diff -Nru ParseTemplate-0.34/examples/inheritance.pl ParseTemplate-0.34.new/examples/inheritance.pl
 --- ParseTemplate-0.34/examples/inheritance.pl	Mon Sep 25 17:08:57 2000
-+++ ParseTemplate-0.34.new/examples/inheritance.pl	Mon Feb  5 22:51:14 2001
++++ ParseTemplate-0.34.new/examples/inheritance.pl	Thu Feb  8 07:27:24 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
@@ -72,7 +72,7 @@ diff -Nru ParseTemplate-0.34/examples/inheritance.pl ParseTemplate-0.34.new/exam
  
 diff -Nru ParseTemplate-0.34/examples/recursive.pl ParseTemplate-0.34.new/examples/recursive.pl
 --- ParseTemplate-0.34/examples/recursive.pl	Mon Sep 25 17:08:57 2000
-+++ ParseTemplate-0.34.new/examples/recursive.pl	Mon Feb  5 22:51:36 2001
++++ ParseTemplate-0.34.new/examples/recursive.pl	Thu Feb  8 07:27:44 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
@@ -81,7 +81,7 @@ diff -Nru ParseTemplate-0.34/examples/recursive.pl ParseTemplate-0.34.new/exampl
  
 diff -Nru ParseTemplate-0.34/examples/synopsis.pl ParseTemplate-0.34.new/examples/synopsis.pl
 --- ParseTemplate-0.34/examples/synopsis.pl	Wed Sep 27 13:48:42 2000
-+++ ParseTemplate-0.34.new/examples/synopsis.pl	Mon Feb  5 22:51:32 2001
++++ ParseTemplate-0.34.new/examples/synopsis.pl	Thu Feb  8 07:27:41 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
@@ -90,7 +90,7 @@ diff -Nru ParseTemplate-0.34/examples/synopsis.pl ParseTemplate-0.34.new/example
  use strict;
 diff -Nru ParseTemplate-0.34/examples/synopsis_bis.pl ParseTemplate-0.34.new/examples/synopsis_bis.pl
 --- ParseTemplate-0.34/examples/synopsis_bis.pl	Mon Sep 25 17:08:57 2000
-+++ ParseTemplate-0.34.new/examples/synopsis_bis.pl	Mon Feb  5 22:51:10 2001
++++ ParseTemplate-0.34.new/examples/synopsis_bis.pl	Thu Feb  8 07:27:20 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
