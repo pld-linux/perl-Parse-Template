@@ -11,8 +11,8 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tar.gz
 # Source0-md5:	f211413811b6a51c6637f60259ba7b10
 Patch0:		perl-ParseTemplate-paths.patch
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 5.6
 BuildArch:	noarch
 Obsoletes:	perl-ParseTemplate
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -23,7 +23,7 @@ text.  This class can be used as a code generator, or a generator of
 documents in various document formats (HTML, XML, RTF, etc.).
 
 %description -l pl
-Klasa Parse::Template oblicza wyra¿enie Perla umieszczonych w tekscie.
+Klasa Parse::Template oblicza wyra¿enie Perla umieszczonych w tek¶cie.
 Klasa ta mo¿e s³u¿yæ jako generator kodu lub jako generator dokumentów
 w ró¿nych formatach (HTML, XML, RTF itp.).
 
@@ -40,7 +40,8 @@ w ró¿nych formatach (HTML, XML, RTF itp.).
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 install examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
@@ -54,5 +55,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 %dir %{_examplesdir}/%{name}-%{version}
 %{_examplesdir}/%{name}-%{version}/delegation2.pl
-%attr(755,root,root) %{_examplesdir}/%{name}-%{version}/[^d]*
-%attr(755,root,root) %{_examplesdir}/%{name}-%{version}/d?[^l]*
+%attr(755,root,root) %{_examplesdir}/%{name}-%{version}/[!d]*
+%attr(755,root,root) %{_examplesdir}/%{name}-%{version}/d?[!l]*
