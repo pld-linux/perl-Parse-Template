@@ -6,7 +6,7 @@
 %define		pdir	Parse
 %define		pnam	Template
 Summary:	Parse::Template - processor for templates containing Perl expressions
-Summary(pl):	Parse::Template - procesor dla szablonÛw zawieraj±cych wyraøenia Perla
+Summary(pl.UTF-8):   Parse::Template - procesor dla szablon√≥w zawierajƒÖcych wyra≈ºenia Perla
 Name:		perl-Parse-Template
 Version:	0.34
 Release:	1
@@ -27,10 +27,10 @@ The Parse::Template class evaluates Perl expressions placed within a
 text.  This class can be used as a code generator, or a generator of
 documents in various document formats (HTML, XML, RTF, etc.).
 
-%description -l pl
-Klasa Parse::Template oblicza wyraøenia Perla umieszczone w tek∂cie.
-Klasa ta moøe s≥uøyÊ jako generator kodu lub jako generator dokumentÛw
-w rÛønych formatach (HTML, XML, RTF itp.).
+%description -l pl.UTF-8
+Klasa Parse::Template oblicza wyra≈ºenia Perla umieszczone w tek≈õcie.
+Klasa ta mo≈ºe s≈Çu≈ºyƒá jako generator kodu lub jako generator dokument√≥w
+w r√≥≈ºnych formatach (HTML, XML, RTF itp.).
 
 %prep
 %setup -q -n %{pdir}%{pnam}-%{version}
