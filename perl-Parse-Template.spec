@@ -6,7 +6,7 @@
 %define		pdir	Parse
 %define		pnam	Template
 Summary:	Parse::Template - processor for templates containing Perl expressions
-Summary(pl.UTF-8):   Parse::Template - procesor dla szablonów zawierających wyrażenia Perla
+Summary(pl.UTF-8):	Parse::Template - procesor dla szablonów zawierających wyrażenia Perla
 Name:		perl-Parse-Template
 Version:	0.34
 Release:	1
