@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_with	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Parse
 %define		pnam	Template
+%include	/usr/lib/rpm/macros.perl
 Summary:	Parse::Template - processor for templates containing Perl expressions
 Summary(pl.UTF-8):	Parse::Template - procesor dla szablonów zawierających wyrażenia Perla
 Name:		perl-Parse-Template
@@ -16,15 +16,16 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tar.gz
 # Source0-md5:	f211413811b6a51c6637f60259ba7b10
 Patch0:		perl-ParseTemplate-paths.patch
+URL:		http://search.cpan.org/dist/Parse-Template/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildArch:	noarch
 Obsoletes:	perl-ParseTemplate
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The Parse::Template class evaluates Perl expressions placed within a
-text.  This class can be used as a code generator, or a generator of
+text. This class can be used as a code generator, or a generator of
 documents in various document formats (HTML, XML, RTF, etc.).
 
 %description -l pl.UTF-8
@@ -49,7 +50,7 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
-install examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -p examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
