@@ -4,7 +4,6 @@
 
 %define		pdir	Parse
 %define		pnam	Template
-%include	/usr/lib/rpm/macros.perl
 Summary:	Parse::Template - processor for templates containing Perl expressions
 Summary(pl.UTF-8):	Parse::Template - procesor dla szablonów zawierających wyrażenia Perla
 Name:		perl-Parse-Template
